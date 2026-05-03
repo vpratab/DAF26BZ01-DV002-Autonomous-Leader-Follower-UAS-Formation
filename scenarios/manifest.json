@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scenario_01_nominal_formation_leg",
+    "label": "Nominal Single-Pilot Formation Leg",
+    "summary": "Leader-follower geometry remains stable with healthy timing, navigation coherence, and valid handoff planning.",
+    "mode": "nominal",
+    "input": "scenarios/scenario_01_nominal_formation_leg.jsonl",
+    "output": "evidence/scenario_01_nominal_formation_leg"
+  },
+  {
+    "id": "scenario_02_degraded_pnt_spacing",
+    "label": "Contested-PNT Stasis Drift",
+    "summary": "Formation spacing and timing drift begin to accumulate under degraded PNT but remain recoverable under reversion or stasis logic.",
+    "mode": "degraded",
+    "input": "scenarios/scenario_02_degraded_pnt_spacing.jsonl",
+    "output": "evidence/scenario_02_degraded_pnt_spacing"
+  },
+  {
+    "id": "scenario_03_follower_divergence",
+    "label": "Follower Divergence After Handoff",
+    "summary": "The follower departs safe spacing and heading coherence while target-handoff validity collapses, driving a reject verdict.",
+    "mode": "fault",
+    "input": "scenarios/scenario_03_follower_divergence.jsonl",
+    "output": "evidence/scenario_03_follower_divergence"
+  }
+]

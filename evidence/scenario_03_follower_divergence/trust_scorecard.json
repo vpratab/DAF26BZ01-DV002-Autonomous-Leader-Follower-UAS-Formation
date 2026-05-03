@@ -1,0 +1,18 @@
+{
+  "topic_id": "DAF26BZ01-DV002",
+  "title": "Autonomous Leader-Follower UAS Formation",
+  "scenario_name": "scenario_03_follower_divergence",
+  "total_frames": 60,
+  "accept_frames": 20,
+  "flag_frames": 0,
+  "reject_frames": 40,
+  "min_trust_score": 0.003,
+  "final_trust_score": 0.003,
+  "first_reject_frame": 20,
+  "violations_by_property": {
+    "Contested-PNT Timing Coherence": 40,
+    "Formation Geometry Error": 40,
+    "Formation Intent Coherence": 40,
+    "Terminal Separation Margin": 40
+  }
+}

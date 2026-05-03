@@ -1,0 +1,13 @@
+{
+  "topic_id": "DAF26BZ01-DV002",
+  "title": "Autonomous Leader-Follower UAS Formation",
+  "repo_name": "DAF26BZ01-DV002-Formation-Assurance",
+  "solicitation_track": "Direct-to-Phase-II / pre-release topic (confirm final DSIP release details at submission time)",
+  "solicitation_objective": "Support resilient leader-follower UAS teaming that reduces operator workload while preserving formation coherence, target handoff, and continuity under degraded GPS or communications.",
+  "source_basis": "Public pre-release mirrors for DAF26BZ01-DV002; validate final wording against the official DSIP topic PDF before submission.",
+  "opening_angle": "formation autonomy assurance layer; degraded-PNT trust monitor for multi-UAS control",
+  "delivery": "Onboard or companion-compute code that watches leader/follower autonomy, checks degraded-PNT coherence, and exports evidence suitable for reversion logic integration.",
+  "short_pitch": "RTVLAS adapted as a formation assurance layer that monitors leader-follower autonomy, degraded-PNT behavior, and multi-UAS spacing trust so existing formation stacks can fail safe instead of silently diverging.",
+  "viewer": false,
+  "phase2_transition": "Integrate with a real leader-follower autonomy loop, add live MAVLink/companion compute hookups, and demonstrate pilot-reassignment or degraded-PNT recovery behavior in surrogate multi-UAS simulation or SIL."
+}

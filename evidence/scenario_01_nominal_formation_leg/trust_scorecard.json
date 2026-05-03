@@ -1,0 +1,13 @@
+{
+  "topic_id": "DAF26BZ01-DV002",
+  "title": "Autonomous Leader-Follower UAS Formation",
+  "scenario_name": "scenario_01_nominal_formation_leg",
+  "total_frames": 60,
+  "accept_frames": 60,
+  "flag_frames": 0,
+  "reject_frames": 0,
+  "min_trust_score": 1.0,
+  "final_trust_score": 1.0,
+  "first_reject_frame": null,
+  "violations_by_property": {}
+}
