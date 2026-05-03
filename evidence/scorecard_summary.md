@@ -1,8 +1,8 @@
 # Evidence Scorecard Summary
 
 - Topic: `DAF26BZ01-DV002 Autonomous Leader-Follower UAS Formation`
-- Generated: `2026-05-03T04:54:20Z`
-- Git Head: `UNCOMMITTED_SCAFFOLD`
+- Generated: `2026-05-03T04:54:59Z`
+- Git Head: `8a4b99c1b8b6b4d6b03964ad4b8016f38c0422f8`
 - Scenario Pass Rate: `3/3 (100.0%)`
 - Evidence Type: `deterministic synthetic autonomy traces for submission-stage feasibility review`
 
